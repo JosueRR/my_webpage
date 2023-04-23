@@ -1,0 +1,350 @@
+@import 'navbar';
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+// Hero Section CSS
+.hero {
+    background-color: $white;
+
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        margin: 0 auto;
+        height: 90vh;
+        z-index: 1;
+        width: 100%;
+        max-width: 100%;
+        padding-right: 24px;
+        padding-left: 24px;
+
+        @include tablet {
+            grid-template-columns: 1fr;
+            height: 100%;
+        }
+
+        &--left {
+            width: 100%;
+            line-height: 1.2;
+
+            @include tablet {
+                paddig: 5 rem 0;
+            }
+
+            @include mobile {
+                line-height: 1.5;
+            }
+        }
+
+        &--left h1 {
+            font-size: 4rem;
+            color: $lime;
+
+            @include mobile {
+                font-size: 1.5;
+            }
+        }
+
+        &--left h2 {
+            font-size: 4rem;
+            color: $dark;
+
+            @include mobile {
+                font-size: 1.5;
+            }
+        }
+
+        &--left p {
+            font-size: 2rem;
+            color: $dark;
+            margin-top: 1rem;
+            font-weight: 700W;
+
+            @include mobile {
+                font-size: 1.5;
+            }
+        }
+
+        &--btn {
+            font-size: 1rem;
+            background-color: $lime;
+            padding: 14px 32px;
+            border: none;
+            border-radius: 4px;
+            color: $light;
+            margin-top: 2rem;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s;
+            outline: none;
+        }
+
+        &--btn a {
+            position: relative;
+            z-index: 2;
+            color: $light;
+            text-decoration: none;
+        }
+
+        &--btn:after {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: $orangeRed;
+            transition: all 0.3s;
+            border-radius: 4px;
+        }
+
+        &--img {
+            height: 100%;
+            width: 100%;
+            transform: scaleX(-1);
+        }
+    }
+}
+
+// Goals Section CSS
+.goals__tittle {
+    display: block;
+    color: $lime;
+    text-align: center;
+    font-size: 4rem;
+    margin: 24px;
+}
+
+.goals__container {
+    padding: 1rem;
+    margin: 40px auto;
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 90vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 88px;
+    padding-left: 88px;
+
+    text-align: center;
+
+    //  padding: 1rem;
+    // background-color: aquamarine;
+    // border: 2px solid;
+    // text-align: center;
+    // color: azure;
+
+    [class*="col"] {
+        padding: 1rem;
+
+        border: 2px;
+        color: rgb(7, 8, 8);
+        text-align: center;
+    }
+
+    &--img {
+        height: 100%;
+        width: 100%;
+        transform: scaleX(-1);
+    }
+
+    p {
+        color: $dark;
+        margin-top: 1rem;
+        font-weight: 700W;
+    }
+
+    h2 {
+        color: $lime;
+    }
+}
+
+// Hobbies Section CSS
+.hobbies__container {
+    padding: 1rem;
+    margin: 40px auto;
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 90vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 88px;
+    padding-left: 88px;
+
+    text-align: center;
+
+    &--img {
+        height: 100%;
+        width: 50%;
+        display: block;
+        justify-content: right;
+        align-items: right;
+        margin: 10px 50px 20px;
+    }
+
+    //  padding: 1rem;
+    // background-color: aquamarine;
+    // border: 2px solid;
+    // text-align: center;
+    // color: azure;
+
+    [class*="col"] {
+        padding: 1rem;
+        border: 2px;
+        color: rgb(7, 8, 8);
+        text-align: center;
+    }
+
+    p {
+        color: $dark;
+        margin-top: 1rem;
+        font-weight: 700W;
+    }
+
+    h2 {
+        color: $lime;
+    }
+}
+
+// About Website Section CSS
+.about__container {
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+
+    height: 65vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 12px;
+    padding-left: 24px;
+    padding-top: 80px;
+
+    text-align: center;
+
+    [class*="col"] {
+        padding: 1rem;
+        border: 5px;
+        color: rgb(7, 8, 8);
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.5rem;
+        color: $darkGrey;
+        margin-top: 1rem;
+        font-weight: 700W;
+    }
+
+    h1 {
+        padding-left: 24px;
+        text-align: left;
+        font-size: 4rem;
+        color: $lime;
+    }
+
+    h2 {
+        justify-content: center;
+        font-size: 3rem;
+        color: $dark;
+    }
+}
+
+// Contact Me Section CSS
+.contact__container {
+    padding: 48px 0px;
+    margin: 48px;
+
+    .grid__container {
+        align-items: center;
+        display: inline-block;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 1rem;
+        margin: 60px;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 4rem;
+        color: $darkGrey;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        color: $lime;
+        align-items: center;
+        font-size: 2rem;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    p {
+        margin-top: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1rem;
+    }
+
+    .grid__container .row .col-sm-4 img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        height: 30%;
+        width: 30%;
+    }
+
+}
+
+.cs__container {
+    .row {
+        padding: 24px;
+        margin: 24px;
+        margin-top: 48px;
+        margin-left: 48px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    p {
+        font-size: 1.5rem;
+        color: $darkGrey;
+        margin-top: 1rem;
+        font-weight: 700W;
+    }
+
+    h1 {
+        padding-left: 24px;
+        text-align: left;
+        font-size: 4rem;
+        color: $lime;
+    }
+
+    h2 {
+        justify-content: center;
+        font-size: 3rem;
+        color: $dark;
+    }
+
+}

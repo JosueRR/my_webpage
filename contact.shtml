@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--#include virtual="navbar.shtml" -->
+
+    <!-- Contact me Section-->
+    <div class="contact__container">
+        <h1>Contact Me</h1>
+        <div class="grid__container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/contact1.svg" alt="contact1" class="contact__container--img" />
+                    <h2>Checkout my Projects</h2>
+                    <p> <a href="https://github.com/JosueRR"> Click here to Checkout my Projects!</a> </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/contact2.svg" alt="contact2" class="contact__container--img" />
+                    <h2>Send me an Email</h2>
+                    <p>josue.retanarodriguez@ucr.ac.cr</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/contact3.svg" alt="contact3" class="contact__container--img" />
+                    <h2>Checkout my CV</h2>
+                    <p> <a href="data/JR-CV.pdf" target="_blank">Click to open PDF</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

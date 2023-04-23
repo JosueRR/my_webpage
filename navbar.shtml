@@ -1,0 +1,36 @@
+<!-- Navbar Section -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a href="https://titanic.ecci.ucr.ac.cr/~ec06440/index.shtml" class="navbar__logo">JR</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav"> id
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="https://titanic.ecci.ucr.ac.cr/~ec06440/index.shtml"
+                    class="navbar__menu--links nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://titanic.ecci.ucr.ac.cr/~ec06440/goals.shtml"
+                    class="navbar__menu--links nav-link">Goals</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://titanic.ecci.ucr.ac.cr/~ec06440/cs.shtml" class="navbar__menu--links nav-link">Computer
+                    Science</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://titanic.ecci.ucr.ac.cr/~ec06440/hobbies.shtml"
+                    class="navbar__menu--links nav-link">Hobbies</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://titanic.ecci.ucr.ac.cr/~ec06440/about.shtml" class="navbar__menu--links nav-link">About
+                    this Website</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://titanic.ecci.ucr.ac.cr/~ec06440/contact.shtml"
+                    class="navbar__menu--links nav-link">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>

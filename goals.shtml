@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3c4e8fab19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Goals</title>
+
+</head>
+
+<body>
+    <!--#include virtual="navbar.shtml" -->
+
+    <!-- Goals Section-->
+
+    <div class="goals__container">
+
+        <div class="row">
+            <div class="col-md-7">
+                <h2> Immigrate </h2>
+                <p> Since a teenager I have always wanted to move to another country. There are potential benefits to
+                    immigrating from a third world country, such as improved access to education, healthcare, and
+                    employment opportunities. Moving to a more developed country can provide a better quality of life
+                    and access to resources that may not be available in one's country of origin. Additionally,
+                    immigration can lead to increased cultural exchange and diversity, which can enrich both the
+                    individual and the society they are joining. </p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/goal1.svg" alt="goals1" class="goals__container--img" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <img src="images/goal2.svg" alt="goals2" class="goals__container--img" />
+            </div>
+            <div class="col-md-7">
+                <h2> Business </h2>
+                <p> Since a kid, I have always wanted to start my on business. For now I do not have a specific bussines
+                    idea, but It will probably have something to do with CS. Starting a business can be a good idea for
+                    several reasons. Firstly, it allows individuals to pursue their passion and turn it into a career.
+                    This can lead to a greater sense of fulfillment and satisfaction in one's work. Additionally,
+                    starting a business can provide financial independence and the potential for long-term financial
+                    stability.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-7">
+                <h2> Interior Courtyard </h2>
+                <p> An aspirational dream of mine is having a house with a beatiful interior courtyard. Having an
+                    interior courtyard can be a great idea for several reasons. Firstly, it provides a peaceful and
+                    serene outdoor space that is shielded from noise and pollution. This can be a great escape from the
+                    hustle and bustle of city life, while still allowing residents to enjoy the benefits of an outdoor
+                    area. An interior courtyard can also bring natural light and fresh air into the surrounding rooms,
+                    creating a brighter and healthier living environment. Additionally, an interior courtyard can add to
+                    the aesthetics of a home, providing an attractive and visually appealing focal point.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/goal3.svg" alt="goals3" class="goals__container--img" />
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

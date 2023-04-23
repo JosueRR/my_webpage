@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <script src="https://kit.fontawesome.com/3c4e8fab19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <!--#include virtual="navbar.shtml" -->
+
+    <!-- Hobbies Section-->
+    <div class="hobbies__container">
+
+        <div class="row">
+            <div class="col-md-7">
+                <h2> Workout </h2>
+                <p> I really like to workout. Working out is useful because can help improving your physical health by
+                    strengthening your muscles, bones, and cardiovascular system. Regular exercise can also lower your
+                    risk of chronic diseases such as diabetes, heart disease, and obesity. Secondly, working out can
+                    have a positive impact on your mental health by reducing stress, anxiety, and depression.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/hobbie1.svg" alt="hobbie1" class="hobbies__container--img" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <img src="images/hobbie2.svg" alt="hobbie2" class="hobbies__container--img" />
+            </div>
+            <div class="col-md-7">
+                <h2> Videogames </h2>
+                <p> Since a kid I have always ejoyed playing all kind of videogames. My favorite is The Witcher, I
+                    played all the games and read some books. I love everything about it. video games can be a great way
+                    to relax and unwind after a long day. They offer a fun and engaging activity that can help take your
+                    mind off stressors and provide a temporary escape from reality. Secondly, playing video games can
+                    provide cognitive benefits such as improved problem-solving, decision-making, and spatial reasoning
+                    skills. Many games require players to think strategically and use critical thinking, which can be
+                    beneficial in real-world situations. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-7">
+                <h2> Traveling </h2>
+                <p> A new hobbie that I've been doing on the last few years is traveling, althoug is bit expensive is
+                    totally worth it. When you travel, you get the opportunity to experience new cultures, try new
+                    foods, and learn about different ways of life. It can broaden your perspective on the world and help
+                    you appreciate the diversity of our planet.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/hobbie3.svg" alt="hobbie3" class="hobbies__container--img" />
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

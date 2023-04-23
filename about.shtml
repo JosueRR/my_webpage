@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>About</title>
+</head>
+
+<body>
+    <!--#include virtual="navbar.shtml" -->
+
+
+    <!-- About this website Section-->
+
+    <div class="about__container">
+        <div class="row">
+            <div class="col-5">
+                <h1> What is this? </h1>
+            </div>
+            <div class="col-7">
+                <h2> Personal Webpage</h2>
+                <p> This is a project made for a course I'm currently taking</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-5">
+                <h1> How was this build? </h1>
+            </div>
+            <div class="col-7">
+                <h2> Bootstrap</h2>
+                <p> This website was build using bootstrap so it is responsive </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-5">
+                <h1> How long did it take? </h1>
+            </div>
+            <div class="col-7">
+                <h2> Way too much </h2>
+                <p> But totally worth it </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

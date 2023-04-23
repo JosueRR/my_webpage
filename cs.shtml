@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>CS</title>
+</head>
+
+<body>
+    <!--#include virtual="navbar.shtml" -->
+
+    <!-- CS Section-->
+    <div class="cs__container">
+        <div class="row">
+            <div class="col-5">
+                <h1> Why did you study CS? </h1>
+            </div>
+            <div class="col-7">
+                <h2> Love & Hate </h2>
+                <p> Since a kid I wanted to study CS, although is tough, I really like it</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-5">
+                <h1> What are your favorite subjects? </h1>
+            </div>
+            <div class="col-7">
+                <h2> Just two</h2>
+                <p> Parallel programming & Operative Systems </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-5">
+                <h1> Teacher and Uni Partners </h1>
+            </div>
+            <div class="col-7">
+                <h2> My Favs </h2>
+                <p> My favorite teacher so far is Jeisson </p>
+                <p> One good uni parnert is Ariel, he is from CS and I like to hang out with him. </p>
+                <p> Another uni friend is Adrián, he is also from CS and is we have good conversations. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-5">
+                <h1> Resources </h1>
+            </div>
+            <div class="col-7">
+                <h2> These are some useful links </h2>
+                <p> <a href="https://www.example.com">Click here</a> to visit my GitHub!</p>
+                <p> <a href="https://www.example.com">Click here</a> to visit my GitLab!</p>
+                <p> <a href="https://www.example.com">Click here</a> to visit a cool website!</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

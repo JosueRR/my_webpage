@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3c4e8fab19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!--#include virtual="navbar.shtml" -->
+
+    <!-- Index Section-->
+    <div class="hero">
+        <div class="hero__container">
+            <div class="hero__container--left">
+                <h1>They World is Yours</h1>
+                <h2>Be prepared</h2>
+                <p>Check this cool website</p>
+                <button class="hero__container--btn">
+                    <a href="#">Check out!</a>
+                </button>
+            </div>
+            <div class="hero__container--right">
+                <img src="images/pointing_viking.svg" alt="alien" class="hero__container--img" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
