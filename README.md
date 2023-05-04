@@ -2,9 +2,9 @@
 
 # _Description of the Site_
 
-The repo can be found *[here](https://github.com/JosueRR/my_webpage "Cool repo")*
+This is a personal web page made for the course "Development of Web Applications". It is made using html and bootstrap, therefore is a responsive site. It also uses SSI directives. Finally the website is hosted in a Universy of Costa server. You can find the website *[here](https://titanic.ecci.ucr.ac.cr/~ec06440/my_webpage/ "Cool website")*.
 
-This is a personal web page made for the course "Development of Web Applications". It is made using html and bootstrap, therefore is a responsive site. It also uses SSI directives. Finally the website is hosted in a Universy of Costa server. You can find the website *[here](https://titanic.ecci.ucr.ac.cr/~ec06440/index.shtml "Cool website")*.
+The repo can be found *[here](https://github.com/JosueRR/my_webpage "Cool repo")*
 
 The page has six main parts:
 
